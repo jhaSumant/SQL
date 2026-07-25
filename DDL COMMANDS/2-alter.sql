@@ -1,0 +1,7 @@
+ALTER TABLE person 
+ADD email VARCHAR(50) NOT NULL ;
+
+ALTER TABLE person 
+DROP COLUMN phone;
+
+SELECT * FROM person 
